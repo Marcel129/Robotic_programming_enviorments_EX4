@@ -1,0 +1,25 @@
+[0.296s] Invoking command in '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/src/signalPackage': PYTHONPATH=/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/signalPackage build --build-base /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/build install --record /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/install.log --single-version-externally-managed install_data
+[0.413s] running egg_info
+[0.414s] writing ../../build/signalPackage/signalPackage.egg-info/PKG-INFO
+[0.414s] writing dependency_links to ../../build/signalPackage/signalPackage.egg-info/dependency_links.txt
+[0.414s] writing entry points to ../../build/signalPackage/signalPackage.egg-info/entry_points.txt
+[0.414s] writing requirements to ../../build/signalPackage/signalPackage.egg-info/requires.txt
+[0.414s] writing top-level names to ../../build/signalPackage/signalPackage.egg-info/top_level.txt
+[0.415s] reading manifest file '../../build/signalPackage/signalPackage.egg-info/SOURCES.txt'
+[0.415s] adding license file 'LICENSE'
+[0.415s] writing manifest file '../../build/signalPackage/signalPackage.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] running install
+[0.416s] running install_lib
+[0.417s] running install_data
+[0.417s] copying launch/signalPackage_launch.py -> /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/share/signalPackage/launch
+[0.417s] running install_egg_info
+[0.418s] removing '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage-0.0.0-py3.10.egg-info' (and everything under it)
+[0.418s] Copying ../../build/signalPackage/signalPackage.egg-info to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage-0.0.0-py3.10.egg-info
+[0.418s] running install_scripts
+[0.429s] Installing generator_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+[0.430s] Installing modifier_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+[0.430s] Installing viewer_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+[0.430s] writing list of installed files to '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/install.log'
+[0.441s] Invoked command in '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/src/signalPackage' returned '0': PYTHONPATH=/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/signalPackage build --build-base /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/build install --record /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/install.log --single-version-externally-managed install_data

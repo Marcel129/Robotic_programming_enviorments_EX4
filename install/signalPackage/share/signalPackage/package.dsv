@@ -1,0 +1,6 @@
+source;share/signalPackage/hook/pythonpath.ps1
+source;share/signalPackage/hook/pythonpath.dsv
+source;share/signalPackage/hook/pythonpath.sh
+source;share/signalPackage/hook/ament_prefix_path.ps1
+source;share/signalPackage/hook/ament_prefix_path.dsv
+source;share/signalPackage/hook/ament_prefix_path.sh

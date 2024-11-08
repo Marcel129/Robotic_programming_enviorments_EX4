@@ -1,0 +1,5 @@
+[console_scripts]
+generator_node = signalPackage.signal_generator:main
+modifier_node = signalPackage.signal_modifier:main
+viewer_node = signalPackage.signal_viewer:main
+
