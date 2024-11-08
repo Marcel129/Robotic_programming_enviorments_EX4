@@ -1,0 +1,4 @@
+source;share/signalPackage/local_setup.bash
+source;share/signalPackage/local_setup.dsv
+source;share/signalPackage/local_setup.sh
+source;share/signalPackage/local_setup.zsh

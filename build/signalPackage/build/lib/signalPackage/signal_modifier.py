@@ -6,18 +6,28 @@ from std_msgs.msg import Float64
 class SignalModifier(Node):
     def __init__(self):
         super().__init__("signal_modifier")
+        self.declare_parameters(
+            namespace='',
+            parameters=[
+                ('signal_scaling_factor', rclpy.Parameter.Type.DOUBLE)
+            ]
+        )
         self.msg = Float64()
         self.msg.data = 0.0
+        self.scalingFactor = self.get_parameter('signal_scaling_factor').get_parameter_value().double_value
 
         self.signalSubscriber = self.create_subscription(Float64, "/signal", self.signal_callback, 10)
 
         self.signalPublisher = self.create_publisher(Float64, "/modified_signal", 10)
 
-        self.get_logger().info("Hearing for a signal")
+        self.get_logger().info(
+            f"""Hearing for a signal has been started
+            Loaded params values: 
+            scaling factor: {self.scalingFactor}""")
 
     def signal_callback(self, msg: Float64):
         self.get_logger().info(f"Msg received: {msg.data}")
-        self.msg.data = msg.data * 2.0
+        self.msg.data = msg.data * self.scalingFactor
         self.send_signal_value()
 
     def send_signal_value(self):

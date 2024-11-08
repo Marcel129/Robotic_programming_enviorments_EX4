@@ -1,0 +1,4 @@
+signal_generator:
+  ros__parameters:
+    signal_amplitude: 3.0
+    signal_period: 1.0

@@ -1,0 +1,2 @@
+Invoking command in '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage': /usr/bin/cmake /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/src -DCMAKE_INSTALL_PREFIX=/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage
+Invoked command in '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage' returned '1': /usr/bin/cmake /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/src -DCMAKE_INSTALL_PREFIX=/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage

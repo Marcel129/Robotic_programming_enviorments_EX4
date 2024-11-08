@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/signalPackage/signalPackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/signalPackage/signalPackage.egg-info/dependency_links.txt
+writing entry points to ../../build/signalPackage/signalPackage.egg-info/entry_points.txt
+writing requirements to ../../build/signalPackage/signalPackage.egg-info/requires.txt
+writing top-level names to ../../build/signalPackage/signalPackage.egg-info/top_level.txt
+reading manifest file '../../build/signalPackage/signalPackage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/signalPackage/signalPackage.egg-info/SOURCES.txt'
+running build
+running build_py
+copying signalPackage/signal_generator.py -> /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/build/lib/signalPackage
+running install
+running install_lib
+copying /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/build/lib/signalPackage/signal_generator.py -> /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage
+byte-compiling /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage/signal_generator.py to signal_generator.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/signalPackage/signalPackage.egg-info to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/python3.10/site-packages/signalPackage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing generator_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+Installing modifier_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+Installing viewer_node script to /home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/install/signalPackage/lib/signalPackage
+writing list of installed files to '/home/marcel/studies/2_sem_mgr/RPE_lab/EX4/ros2_ws/build/signalPackage/install.log'
