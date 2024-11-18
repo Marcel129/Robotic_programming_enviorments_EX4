@@ -16,17 +16,17 @@ class SignalModifier(Node):
         self.msg.data = 0.0
         self.scalingFactor = self.get_parameter('signal_scaling_factor').get_parameter_value().double_value
 
-        self.signalSubscriber = self.create_subscription(Float64, "/signal", self.signal_callback, 10)
-
-        self.signalPublisher = self.create_publisher(Float64, "/modified_signal", 10)
-
         self.get_logger().info(
             f"""Hearing for a signal has been started
             Loaded params values: 
             scaling factor: {self.scalingFactor}""")
+        
+        self.signalSubscriber = self.create_subscription(Float64, "/signal", self.signal_callback, 10)
+
+        self.signalPublisher = self.create_publisher(Float64, "/modified_signal", 10)
+
 
     def signal_callback(self, msg: Float64):
-        self.get_logger().info(f"Msg received: {msg.data}")
         self.msg.data = msg.data * self.scalingFactor
         self.send_signal_value()
 
